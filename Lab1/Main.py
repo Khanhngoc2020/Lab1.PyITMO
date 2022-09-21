@@ -1,7 +1,5 @@
 import csv
 import random
-import array as arr
-import re
 
 with open('booksnew.csv','r', encoding='windows 1251') as file:
     reader = csv.reader(file, delimiter=';', quotechar='"')
