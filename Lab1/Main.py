@@ -46,8 +46,6 @@ with open('booksnew.csv', encoding='windows 1251') as file:
     deleDup = dict.fromkeys(file)
     print("Длина списка книг не дублируется:", len(list(deleDup)))
 
-#
-
 
 
 
